@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1>COUNTDOWN</h1></div>
+        <div class="timer-display">
+            <p id="hour-label" class="label">Hours /</p><p id="min-label" class="label">Minutes /</p><p id="sec-label" class="label">Seconds</p>
+        </div>
+        <div class="timer">
+            <input id="hour" type="number" max="99" min="0" value="0" class="time">:<input id="min" type="number" max="60" min="0" value="0" class="time">:<input id="sec" type="number" max="60" min="0" value="0" class="time">
+        </div>
+        <div class="buttons">
+            <button id="startTimer">Start</button>
+            <button id="resetTimer">Reset</button>
+          </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
